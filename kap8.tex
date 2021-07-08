@@ -40,7 +40,7 @@ Aufgrund der Asymmetrie kann es durchaus vorkommen, dass bei Vertauschen von \te
 \subsection{Konstruktion von Tests}
 \begin{definition}[\textbf{Likelihood-Quotient}]
 Sei $L(x_1,\dots,x_n;\theta)$ die Likelihood Funktion und $\theta_0 \in \Theta_0$ und $\theta_A \in \Theta_A$. Dann definieren wir den Likelihood-Quotienten als
-$$ R(x_1,\dots,x_n; \theta_0, \theta_a ) := \frac{L(x_1,\dots,x_n; \theta_0)}{L(x_1,\dots,x_n;\theta_A)}$$
+$$ R(x_1,\dots,x_n; \theta_0, \theta_a ) := \frac{L(x_1,\dots,x_n; \theta_A)}{L(x_1,\dots,x_n;\theta_0)}$$
 \end{definition}
 Je kleiner dieser Quotient wird, desto wahrscheinlicher sind die Beobachtungen im Modell $P_{\theta_a}$ im Gegensatz zum Modell $P_{\theta_0}$. $\implies$ wähle als Teststatistik $T= R(X_1,\dots, X_n; \theta_0, \theta_A)$ und als kritischen Bereich $K:=[0,c)$. Sind Hypothese und Alternative jeweils einfach, so ist diesr Test optimal:
 
