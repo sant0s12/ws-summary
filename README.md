@@ -1,6 +1,6 @@
-# Wahrscheinlichkeit und Statistik FS19/FS20 D-INFK  
+# Wahrscheinlichkeit und Statistik FS19/FS20/FS21 D-INFK  
 
-[PDF](https://github.com/mmathys/ws-summary/blob/master/three.pdf)
+[PDF](https://github.com/sant0s12/ws-summary/blob/master/lean.pdf)
 
 ## Notes
 
