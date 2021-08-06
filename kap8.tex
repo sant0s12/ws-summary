@@ -122,7 +122,8 @@ $$ \Phi(z_\alpha) = \frac{1}{\sqrt{2\pi}} \int \limits_{-\infty}^{z_\alpha} e^{-
 Test für den Erwartungswert einer Normalverteilung mit unbekannter Varianz. Seien also $X_1,\dots,X_n \sim \mathcal{N}(\mu, \sigma^2)$-verteilt (i.i.d.) für unbekanntes $\sigma >0$.
 \begin{itemize}
 \item \textbf{Hypothese:} $H_0 : \mu = \mu_0$. Formal präziser wäre $\Theta_0 = \{\theta = (\mu_0, \sigma) \with \sigma > 0 \}$
-\item \textbf{Teststatistik:} $$ T = \frac{\overline{X}_n - \mu_0}{S/\sqrt{n}} \sim t_{n-1} \quad \quad \mbox{unter } P_{\mu_0} \mbox{, wobei } S^2 := \mbox{empirische Stichprobenvarianz}$$
+\item \textbf{Teststatistik:} $\displaystyle T = \frac{\overline{X}_n - \mu_0}{S/\sqrt{n}} \sim
+	t_{n-1} \quad \quad \mbox{unter } P_{\mu_0} \\ \mbox{ wobei } S^2 := \mbox{empirische Stichprobenvarianz}$
 \item \textbf{Kritische Bereiche} (zum Signifikanzniveau $\alpha \in (0,1)$) kann aus Tabelle abgelesen werden:
 \begin{table}[htp]
 \centering

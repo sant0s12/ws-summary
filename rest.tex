@@ -110,7 +110,7 @@ Zusammenhänge $\alpha$ (Signifikanzniveau), Fehler 1. Art, $\beta$ (Macht), Feh
 
 \textbf{Achtung:} Bei kleinen Datenmengen kann eine Normalverteilungsapproximation ungenau werden. Deshalb immer diskrete Werte verwenden.
 
-\includegraphics[width=.8\textwidth]{images/normal.png}
+\includegraphics[width=.8\linewidth]{images/normal.png}
 
 \subsection{Begriffe}
 
@@ -149,9 +149,9 @@ A large p-value ($> 0.05$) indicates weak evidence against the null hypothesis, 
 
 $X_i \sim \text{Poi}(\lambda)$ 
 
-\includegraphics[width=.4\textwidth]{images/likelihood1}
+\includegraphics[width=.4\linewidth]{images/likelihood1}
 
-\includegraphics[width=\textwidth]{images/likelihood2}
+\includegraphics[width=\linewidth]{images/likelihood2}
 
 \section{Konfidenzintervall berechnen}
 
@@ -162,46 +162,12 @@ $X_i \sim \text{Poi}(\lambda)$
 	\item Konfidenzintervall mit Niveau $1-\alpha$: Bereich in der neuen Verteilung, die die Fläche $1-\alpha$ hat. ACHTUNG: Bereich soll als Bereich der Zufallsvariable angegeben sein, bevor sie in die Teststatistik eingeben wird, sodass sie im Niveaubereich liegt.
 \end{itemize}
 
+\section{Diskrete Verteilungen}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\begin{tabularx}{\linewidth}{||*{5}{X|}|}
+	\hline
+	Verteilung & $\mathbb{E}[X]$ & Var($X$) & $p_X(x)$ & $F_X(x)$ \\
+	\hline
+	\small Gleichvertelung & $\frac{1}{n}\sum_{i=1}^{n}x_i$ & $\frac{1}{n}\sum_{i=1}^{n}x_i^2 -
+	\frac{1}{n^2}\left(\sum_{i=1}^n x_i \right)^2$ & $\frac{1}{n}$ &
+\end{tabularx}
