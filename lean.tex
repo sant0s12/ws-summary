@@ -46,16 +46,6 @@
 \author{Jens Eirik Saethre}
 \title{Wahrscheinlichkeit \& Statistik}
 
-%\date{\today}
-%\maketitle
-
-%\setcounter{tocdepth}{2}
-%\tableofcontents
-
-%\thispagestyle{empty}
-%\newpage
-%\setcounter{page}{1}
-
 \begin{multicols*}{3}
 
 % include the individual chapters
@@ -72,12 +62,14 @@
 \input{kap8.tex}
 \input{kap9.tex}
 \input{rest.tex}
-%\input{kap10.tex}
-
-
-% fill the page
-%\clearpage
 
 \end{multicols*}
+
+\begin{minipage}[t]{0.6\linewidth}
+	\input{verteilungen.tex}
+\end{minipage}%
+\begin{minipage}[t]{0.4\linewidth}
+	\blindtext
+\end{minipage}
 
 \end{document}
